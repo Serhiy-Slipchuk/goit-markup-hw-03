@@ -20,44 +20,47 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <div class="container header-line">
+      <nav class="navigation">
         <a class="logo nounderline-link" href="./index.html"
           >Web<span class="logo-part">Studio</span></a
         >
-        <ul class="simple-items">
-          <li>
-            <a class="menu-nav nounderline-link" href="./index.html">Студія</a>
+        <ul class="menu-nav-list simple-items">
+          <li class="menu-nav-item">
+            <a class="menu-nav-link nounderline-link" href="./index.html">Студія</a>
           </li>
-          <li>
+          <li class="menu-nav-item">
             <a
-              class="menu-nav nounderline-link current-page"
+              class="menu-nav-link nounderline-link current-page"
               href="./portfolio.html"
               >Портфоліо</a
             >
           </li>
-          <li><a class="menu-nav nounderline-link" href="#">Контакти</a></li>
+          <li class="menu-nav-item"><a class="menu-nav-link nounderline-link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="simple-items">
-        <li>
+      <ul class="header-contacts-list simple-items">
+        <li class="header-contacts-item">
           <a
-            class="header-contacts nounderline-link"
+            class="header-contacts-link nounderline-link"
             href="mailto:info@devstudio.com"
             >info&#64;devstudio.com</a
           >
         </li>
-        <li>
-          <a class="header-contacts nounderline-link" href="tel:+380961111111"
+        <li class="header-contacts-item">
+          <a class="header-contacts-link nounderline-link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <section>
-        <h1 class="hidden-title">Наші проекти</h1>
-        <ul class="simple-items">
+        <div class="container">
+         <h1 class="hidden-title">Наші проекти</h1>
+         <ul class="simple-items">
           <li>
             <button class="portfolio-filter-btn" type="button">Усі</button>
           </li>
@@ -187,11 +190,13 @@
             </a>
           </li>
         </ul>
+       </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo nounderline-link" href="./index.html">Web<span class="footer-logo-part">Studio</span></p>
-      <address>
+      <div class="container">
+       <a class="footer-logo nounderline-link" href="./index.html">Web<span class="footer-logo-part">Studio</span></p>
+       <address>
         <ul class="simple-items">
           <li>
             <a
@@ -215,7 +220,8 @@
             >
           </li>
         </ul>
-      </address>
+       </address>
+      </div>
     </footer>
   </body>
 </html>
