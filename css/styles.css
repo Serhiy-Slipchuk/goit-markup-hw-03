@@ -28,7 +28,6 @@ ul,
 p {
     margin: 0;
     padding: 0;
-    /* outline: 2px solid blue; */
 }
 
 .nounderline-link {
@@ -45,7 +44,6 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 2px solid red; */
 }
 
 .section {
@@ -235,6 +233,10 @@ p {
 
 /* --------------------------------------------OUR WORK--------------------------- */
 
+.section-work {
+    padding-bottom: 94px;
+}
+
 .work-list {
     display: flex;
     margin-top: 50px;    
@@ -262,6 +264,13 @@ p {
 .team-list {
     display: flex;
     margin-top: 50px;
+}
+
+.team-item {
+    padding-bottom: 30px;
+    background-color: var(--primary-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
@@ -363,7 +372,6 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: var(--secondary-text-color);
     background-color: var(--secondary-bg-color);
     border-width: 0;
@@ -393,16 +401,21 @@ p {
     margin-top: 30px;
 
     background-color: var(--primary-bg-color);
-    border-bottom: 1px solid #EEEEEE;
+}
+
+.portfolio-image {
+    display: block;
+}
+
+.item-description {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .portfolio-subtitle {
-    max-width: 322px;
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    
+      
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -411,10 +424,6 @@ p {
 }
 
 .portfolio-text {
-    max-width: 322px;
-    margin-left: auto;
-    margin-right: auto;
-
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
