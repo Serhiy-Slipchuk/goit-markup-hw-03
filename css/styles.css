@@ -30,6 +30,10 @@ p {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 .nounderline-link {
     text-decoration: none;
 }
@@ -401,10 +405,6 @@ p {
     margin-top: 30px;
 
     background-color: var(--primary-bg-color);
-}
-
-.portfolio-image {
-    display: block;
 }
 
 .item-description {
